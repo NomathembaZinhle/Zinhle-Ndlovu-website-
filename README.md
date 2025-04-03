@@ -1,4 +1,4 @@
-//1. Home Page (index.html)
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -48,7 +48,6 @@
     <script src="script.js"></script>
 </body>
 </html>
-//2. About Page (about.html)
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -96,7 +95,6 @@
     <script src="script.js"></script>
 </body>
 </html>
-//3. Contact Page (contact.html)
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -141,7 +139,6 @@
     <script src="script.js"></script>
 </body>
 </html>
-//CSS Styling (styles.css)
 /* General Styles */
 body {
     font-family: Arial, sans-serif;
@@ -212,8 +209,6 @@ button:hover {
     padding: 15px;
     background-color: #28a745;
 }
-//JavaScript for Interactivity (script.js)
-// JavaScript for Contact Form Validation
 document.getElementById("contact-form").addEventListener("submit", function (e) {
     e.preventDefault();
     let name = document.getElementById("name").value;
@@ -226,4 +221,4 @@ document.getElementById("contact-form").addEventListener("submit", function (e) 
         alert("Please fill in all fields.");
     }
 });
-//
+
